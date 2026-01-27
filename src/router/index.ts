@@ -5,7 +5,7 @@ export const routesNames = {
     games: "games"
 };
 const router = createRouter({
-    history: createWebHistory('#'),
+    history: createWebHistory(),
     routes: [
         {
             path: "/",
