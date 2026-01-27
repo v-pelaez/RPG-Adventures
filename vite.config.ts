@@ -24,5 +24,5 @@ export default defineConfig({
   css: {
     postcss: "./postcss.config.js"
   },
-  base:'https://v-pelaez.github.io/RPG-Adventures/'
+  base:'/RPG-Adventures/'
 });
