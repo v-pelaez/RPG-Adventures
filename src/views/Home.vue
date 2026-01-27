@@ -9,9 +9,9 @@ const games = ref([]);
 
 onMounted(async () => {
   try {
-    const response1 = await fetch("/data/rpgs.json");
+    const response1 = await fetch("data/rpgs.json");
     rpgs.value = await response1.json();
-    const response2 = await fetch("/data/games.json");
+    const response2 = await fetch("data/games.json");
     games.value = await response2.json();
   } catch (error) {
     console.error("Error:", error);

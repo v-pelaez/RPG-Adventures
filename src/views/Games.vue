@@ -41,7 +41,7 @@ const clearFilter = () => {
 };
 
 onMounted(async () => {
-  const response = await fetch("/data/games.json");
+  const response = await fetch("data/games.json");
   games.value = await response.json();
 });
 
