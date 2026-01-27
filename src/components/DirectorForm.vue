@@ -95,7 +95,7 @@ const handleSubmit = () => {
     <Dialog v-model:visible="visible" modal :style="{ width: '30rem' }">
       <template #header>
         <div class="inline-flex items-center justify-center gap-2">
-          <Avatar image="/dado.png" shape="circle" />
+          <Avatar image="dado.png" shape="circle" />
           <span class="font-bold whitespace-nowrap">{{ t('form.directorForm.header.title') }}</span>
         </div>
       </template>
