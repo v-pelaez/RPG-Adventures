@@ -1,0 +1,52 @@
+[
+  {
+    "top": 1,
+    "title": "Dungeons & Dragons",
+    "description": {
+      "es": "El juego de rol de fantasía más icónico, con sistema d20, aventuras épicas y una enorme comunidad global. Ideal para principiantes y campañas largas.",
+      "en": "The game of fantasy role-playing most iconic, with d20 system, epic adventures and a huge global community. Ideal for beginners and long campaigns."
+    },
+    "image": "/data/imgs/dnd.webp",
+    "since": 1974
+  },
+  {
+    "top": 2,
+    "title": "Pathfinder",
+    "description": {
+      "es": "Evolución táctica de D&D con personalización profunda de personajes, combates estratégicos y mundo de Golarion. Perfecto para jugadores experimentados.",
+      "en": "Tactical evolution of D&D with deep character customization, strategic combat and the world of Golarion. Perfect for experienced players."
+    },
+    "image": "/data/imgs/pf.jpg",
+    "since": 2009
+  },
+  {
+    "top": 3,
+    "title": "Call of Cthulhu",
+    "description": {
+      "es": "RPG de horror cósmico inspirado en Lovecraft, enfocado en investigación, cordura y narrativa en lugar de combate. Usa sistema d100.",
+      "en": "Cosmic horror RPG inspired by Lovecraft, focused on investigation, sanity and narrative rather than combat. Uses d100 system."
+    },
+    "image": "/data/imgs/coc.webp",
+    "since": 1981
+  },
+  {
+    "top": 4,
+    "title": "Starfinder",
+    "description": {
+      "es": "Ciencia ficción con elementos de D&D, exploración espacial, naves y combates futuristas. Popular por su mezcla de fantasía y sci-fi.",
+      "en": "Science fiction with D&D elements, space exploration, ships and futuristic combat. Popular for its blend of fantasy and sci-fi."
+    },
+    "image": "/data/imgs/sf.jpg",
+    "since": 2017
+  },
+  {
+    "top": 5,
+    "title": "Brindlewood Bay",
+    "description": {
+      "es": "Juego de misterio y crimen con un toque de lo sobrenatural. Las jugadoras encarnan a encantadoras ancianas detectives en una tranquila ciudad costera, resolviendo asesinatos mientras descubren oscuros secretos bajo la superficie.",
+      "en": "A mystery and crime game with a touch of the supernatural. Players portray charming elderly women detectives in a quiet coastal town, solving murders while uncovering dark secrets beneath the surface."
+    },
+    "image": "/data/imgs/bwb.webp",
+    "since": 2022
+  }
+]

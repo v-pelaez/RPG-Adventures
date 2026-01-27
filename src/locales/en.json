@@ -1,0 +1,120 @@
+{
+  "menu": {
+    "home": "Home",
+    "about": "About us",
+    "games": "Games",
+    "search_game": "Search game",
+    "contact": "Contact",
+    "flag": "fi fi-gb",
+    "lang": "EN"
+  },
+  "footer": {
+    "legal_title": "Legal Notice and Authorship",
+    "legal_paragraph": "This work has been created by V. Peláez for academic purposes. All content authorship exclusively belongs to V. Peláez. The work is non-commercial and does not seek to obtain any economic benefit. The images used come from sources such as Flaticon and Freepik, and are used in compliance with their free use and attribution licenses. Reproduction or distribution of the content for commercial purposes without the explicit consent of the author is prohibited. Proper attribution of the images according to the conditions of the platforms is appreciated."
+  },
+  "table": {
+    "header_system": "System",
+    "header_director": "Director",
+    "header_date": "Date",
+    "header_city": "City",
+    "header_players": "Players",
+    "party_empty": "No games found.",
+    "party_loading": "Searching for games...",
+    "search_placeholder": "Search by keyword...",
+    "clear_button": "Clear",
+    "expand_address": "Address",
+    "expand_directed": "Directed by",
+    "expand_notes": "Notes",
+    "level": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "in_person": "In person"
+  },
+  "home": {
+    "title": "Find games for your favorite systems",
+    "current_games": "Currently",
+    "adventures": "adventures",
+    "others": "Others"
+  },
+  "games": {
+    "public": "Publish your game",
+    "paragraph": "Are you looking for players for your next big adventure? Share your game details now to open the doors of your world to the community and find the perfect heroes. It is time to gather your party, set the stage, and let the dice start rolling!",
+    "lets": "Let's go!"
+  },
+  "form": {
+    "common": {
+      "buttons": {
+        "cancel": "Cancel",
+        "send": "Send",
+        "enroll": "Sign Up"
+      },
+      "errors": {
+        "required": "{field} is required.",
+        "invalidFormat": "Invalid format in {field}.",
+        "genericError": "Oops! Please check the form fields."
+      }
+    },
+    "playerForm": {
+      "header": {
+        "title": "Send Request",
+        "subtitle": "Send your information to the Game Master and they will get in touch with you."
+      },
+      "fields": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Message"
+      }
+    },
+    "directorForm": {
+      "triggerButton": "Let's Play!",
+      "header": {
+        "title": "Publish Adventure",
+        "subtitle": "Complete your RPG session information"
+      },
+      "sections": {
+        "basicInfo": "Basic Information",
+        "date": "Date & Time",
+        "location": "Location",
+        "platform": "Platform",
+        "gameDetails": "Game Details",
+        "description": "Description"
+      },
+      "fields": {
+        "adventureName": "Adventure Name",
+        "gameMaster": "Game Master",
+        "date": "Date",
+        "time": "Time",
+        "onlineGame": "Online Game",
+        "city": "City",
+        "address": "Address",
+        "platformName": "Platform",
+        "invitationLink": "Link/Invitation",
+        "system": "System",
+        "level": "Level",
+        "currentPlayers": "Current Players",
+        "maxPlayers": "Max Players",
+        "description": "Description",
+        "extraDetails": "Additional Details"
+      },
+      "placeholders": {
+        "city": "e.g., London",
+        "address": "e.g., The Local Game Shop",
+        "platform": "e.g., Discord, Roll20, Foundry",
+        "link": "e.g., discord.gg/adventure123",
+        "selectLevel": "Select level"
+      },
+      "levels": {
+        "beginner": "Beginner",
+        "intermediate": "Intermediate",
+        "advanced": "Advanced"
+      },
+      "validation": {
+        "futureDate": "The date must be in the future",
+        "positiveNumber": "Must be a positive number",
+        "maxPlayersError": "Max players must be greater than or equal to current"
+      }
+    }
+  }
+}

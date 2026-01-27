@@ -1,0 +1,120 @@
+{
+  "menu": {
+    "home": "Inicio",
+    "about": "Sobre nosotros",
+    "games": "Partidas",
+    "search_game": "Buscar partida",
+    "contact": "Contacto",
+    "flag": "fi fi-es",
+    "lang": "ES"
+  },
+  "footer": {
+    "legal_title": "Aviso Legal y de Autoría",
+    "legal_paragraph": "Este trabajo ha sido elaborado por V. Peláez con fines académicos. La autoría de todo el contenido corresponde exclusivamente a V. Peláez. El trabajo no tiene carácter comercial ni busca obtener beneficio económico alguno. Las imágenes utilizadas provienen de fuentes como Flaticon y Freepik, y se emplean respetando sus licencias de uso gratuito y atribución.Queda prohibida la reproducción o distribución del contenido para fines comerciales sin el consentimiento explícito del autor. Se agradece la adecuada atribución de las imágenes conforme a las condiciones de las plataformas."
+  },
+  "table": {
+    "header_system": "Sistema",
+    "header_director": "Director",
+    "header_date": "Fecha",
+    "header_city": "Ciudad",
+    "header_players": "Jugadores",
+    "party_empty": "No se han encontrado partidas.",
+    "party_loading": "Buscando partidas...",
+    "search_placeholder": "Buscar por palabra clave...",
+    "clear_button": "Limpiar",
+    "expand_address": "Dirección",
+    "expand_directed": "Dirigido por",
+    "expand_notes": "Notas",
+    "level": {
+      "beginner": "Principiante",
+      "intermediate": "Intermedio",
+      "advanced": "Avanzado"
+    },
+    "in_person": "Presencial"
+  },
+  "home": {
+    "title": "Encuentra partidas para tus sistemas favoritos",
+    "current_games": "Actualmente",
+    "adventures": "aventuras",
+    "others": "Otros"
+  },
+  "games": {
+    "public": "Publica tu partida",
+    "paragraph": "¿Buscas jugadores para tu próxima aventura? Publica los detalles de tu partida para que la comunidad pueda unirse y empezar a rodar los dados.",
+    "lets": "¡Vamos!"
+  },
+  "form": {
+    "common": {
+      "buttons": {
+        "cancel": "Cancelar",
+        "send": "Enviar",
+        "enroll": "Inscríbete"
+      },
+      "errors": {
+        "required": "{field} es requerido.",
+        "invalidFormat": "Formato inválido en {field}.",
+        "genericError": "Oh, oh, revisa los campos del formulario."
+      }
+    },
+    "playerForm": {
+      "header": {
+        "title": "Enviar solicitud",
+        "subtitle": "Envía tu información al director de juego y él se pondrá en contacto contigo."
+      },
+      "fields": {
+        "name": "Nombre",
+        "email": "Email",
+        "message": "Mensaje"
+      }
+    },
+    "directorForm": {
+      "triggerButton": "¡Vamos!",
+      "header": {
+        "title": "Publicar aventura",
+        "subtitle": "Completa la información de tu partida de rol"
+      },
+      "sections": {
+        "basicInfo": "Información básica",
+        "date": "Fecha",
+        "location": "Ubicación",
+        "platform": "Plataforma",
+        "gameDetails": "Detalles del juego",
+        "description": "Descripción"
+      },
+      "fields": {
+        "adventureName": "Nombre de la aventura",
+        "gameMaster": "Director de juego",
+        "date": "Fecha",
+        "time": "Hora",
+        "onlineGame": "Partida online",
+        "city": "Ciudad",
+        "address": "Dirección",
+        "platformName": "Plataforma",
+        "invitationLink": "Enlace/Invitación",
+        "system": "Sistema",
+        "level": "Nivel",
+        "currentPlayers": "Jugadores actuales",
+        "maxPlayers": "Máximo de jugadores",
+        "description": "Descripción",
+        "extraDetails": "Detalles adicionales"
+      },
+      "placeholders": {
+        "city": "Ej: Sevilla",
+        "address": "Ej: Tienda Friki Sevilla",
+        "platform": "Ej: Discord, Roll20, Foundry",
+        "link": "Ej: discord.gg/aventura123",
+        "selectLevel": "Selecciona nivel"
+      },
+      "levels": {
+        "beginner": "Principiante",
+        "intermediate": "Intermedio",
+        "advanced": "Avanzado"
+      },
+      "validation": {
+        "futureDate": "La fecha debe ser futura",
+        "positiveNumber": "Debe ser un número positivo",
+        "maxPlayersError": "Máximo debe ser mayor o igual a actuales"
+      }
+    }
+  }
+}
