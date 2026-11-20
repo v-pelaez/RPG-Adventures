@@ -1,72 +1,46 @@
-# RPG-Adventures
+# RPG-Adventures — Tabletop RPG Campaign Platform
 
-Web platform for role-playing games that allows users to search for available campaigns or publish their own to find players.
+Single-page web application for tabletop role-playing game (TTRPG) communities to browse open campaigns, publish new adventures, and manage player registrations.
 
-## Description
+Live Demo: **[v-pelaez.github.io/RPG-Adventures](https://v-pelaez.github.io/RPG-Adventures/)**
 
-RPG-Adventures is a Vue application developed as an academic project (2º DAW) that simulates a collaborative environment for the role-playing game community. Users can explore available campaigns, publish new adventures, and manage registrations.
+![RPG-Adventures — Desktop Preview](./docs/preview.png)
 
-## Features
+## Key Features
 
-### Internationalization
-- Multi-language support with i18n
-- Automatic browser language detection
-- English as default language
-- Language selector in the header
+- **Interactive Campaign Directory:** PrimeVue `DataTable` supporting expandable rows, real-time keyword filtering, and column sorting.
+- **Forms & Client-Side Validation:** Modal player registration form (`PlayerFormComponent.vue`) with regex validation and a dynamic campaign publishing form validated with Vuelidate.
+- **Data Visualization:** Dynamic Chart.js visualizations (bar, doughnut, and pie charts) with automatic grouping of minor categories into an `"Others"` bucket.
+- **Internationalization (i18n):** Multi-language support built with Vue I18n featuring automatic browser language detection, English fallback, and a header language switcher.
+- **Asynchronous JSON Data Loading:** Client-side loading of structured JSON datasets powering a featured games carousel and a popular TTRPG systems overview.
+- **Responsive & Accessible UI:** Adaptive layout for desktop and mobile devices with text descriptions for images and charts.
 
-### Forms and Validation
-- Registration form (PlayerFormComponent.vue) with validation through regular expressions
-- Campaign publication form with dynamic fields
-- Advanced validation using Vuelidate
-- Modal Dialog for registrations
+## Architecture Highlights
 
-### Data Loading
-- AJAX and JSON for asynchronous data loading
-- Featured games carousel
-- List of most popular systems
+- **Modular Composition API:** Statistics aggregation, translation helpers, and UI logic are decoupled into dedicated Vue 3 composables and reusable components.
+- **Centralized TypeScript Modeling:** Shared interfaces are centralized in `types.ts` to maintain consistency across JSON datasets and components, verified at build time via `vue-tsc`.
 
-### Interactive Tables
-- PrimeVue DataTable for campaign management
-- Expandable rows
-- Real-time filtering by keywords
-- Column sorting
+## Tech Stack
 
-### Data Visualization
-- Dynamic charts with Chart.js
-- Bar, donut, and circular chart representations
-- Automatic grouping of minor categories into "Others"
+- **Framework & Build:** Vue 3 (`^3.5.24`) · Vue Router 4 (`^4.6.4`) · Vite 7 (`^7.2.4`)
+- **Language & Type Checking:** TypeScript (`~5.9.3`) · `vue-tsc`
+- **UI & Styling:** PrimeVue 4 (`^4.5.4`) · PrimeIcons · Tailwind CSS 3 (`^3.4.19`) · PostCSS
+- **Validation, i18n & Charts:** Vuelidate · Vue I18n 11 · Chart.js 4
 
-### Accessibility
-- Responsive interface adapted for mobile and desktop devices
-- Text descriptions for images and charts
-- Scalable and accessible design
+## Local Development
 
-## Technology Stack
+### Setup
 
-| Category | Technologies |
-|----------|---------------|
-| Framework | Vue 3 (Composition API) |
-| Language | TypeScript |
-| Build Tool | Vite |
-| Components | PrimeVue, Chart.js |
-| Styling | Tailwind CSS, PostCSS |
-| Internationalization | Vue I18n |
-| Routing | Vue Router |
-| Data | JSON, AJAX |
+```bash
+git clone [https://github.com/v-pelaez/RPG-Adventures.git](https://github.com/v-pelaez/RPG-Adventures.git)
+cd RPG-Adventures
+npm install
+```
 
+### Scripts
 
-## Configuration and Tools
-
-- **tailwind.config.ts**: Tailwind CSS configuration
-- **postcss.config.ts**: CSS transformation
-- **tsconfig.json**: Strict typing
-- **vite.config.ts**: Build optimizations
-
-
-## Technical Notes
-
-- Uses Vue 3 Composition API for modular logic
-- **StadisticComposable** centralizes statistics calculation and translation logic
-- Typing centralized in `types.ts` for JSON data consistency
-- Native responsive design without sacrificing usability
-- Components decomposed into independent modules to facilitate scalability and maintenance
+| Command | Description |
+| :--- | :--- |
+| `npm run dev` | Start the Vite development server |
+| `npm run build` | Run TypeScript checking (`vue-tsc -b`) and build for production |
+| `npm run preview` | Locally preview the production build |
